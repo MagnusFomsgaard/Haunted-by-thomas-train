@@ -1,0 +1,22 @@
+{
+    "image1": {
+        "data": "hwQQABAAAADQ0AAAAAAAAA0NAJmZmfIP0AAAmZiZ8g8NkJmZmJkCANCQmZmZmfIPDQAAmZiZ8g/Q//+fmJkCAA3//5+ZmfIPAAAREZiZ8g8AEPERkZkCAAAQEfGRmfIPABAR8ZGZ8g8AEPERAQAAAAAAEREAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Thomas"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAABEREREBAAAQ8f///xEAABH/////HwAQ8f////8fABD//////x8AEf//////HxDx//////8fEP////8f/x8Q////EfH/HxAR//////8fABDx////HxEAABH///8fAAAAEBEREREAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Olie"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAA8A8AAA8BEBCQD0AAD/8QGZSQQAAP8R8ZlJAAAA//EBmUkEAADwEQEJAPQAAPAAAA8A8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Sir Hatt"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
