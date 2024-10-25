@@ -77,25 +77,6 @@ namespace myTiles {
 2 2 . . . 2 2 2 . . . . . 2 2 2 
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 `, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile15,sprites.castle.tileGrass1,myTiles.tile7], TileScale.Sixteen);
-            case "level1":
-            case "level1":return tiles.createTilemap(hex`100010000915090909090909090e090909090909090112090302020202020204090901090901090901090909090e0901090901090901090901091212090e090109090109091402020b0903020a02020c02020b090901090901090109010e0901090901090901090901090109010f0d010d0d01100901090901120109010909010913010e0901090906020509011209010909010e0901090909090909010909011312010e09060202020202020702020b0913010e0d0d0d010d0d0d0d0d0d0d010d0d011109030202020202020202020c02020b0f090109090909090909090901090901090906020202020202020202080202050909090909090909090909090909090909`, img`
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-2 . 2 2 . . . . . . . . 2 2 . 2 
-2 . 2 2 . 2 2 2 2 2 2 . 2 2 . 2 
-2 . 2 2 . 2 2 2 2 2 2 . 2 2 . 2 
-2 . . . . 2 . . . . . . . . . 2 
-2 . 2 2 . 2 . 2 . 2 2 . 2 2 . 2 
-2 . 2 2 . 2 . 2 . 2 2 . 2 2 . 2 
-2 . 2 2 . 2 . 2 . 2 2 . 2 2 . 2 
-2 . 2 2 . . . 2 . 2 2 . 2 2 . 2 
-2 . 2 2 2 2 2 2 . 2 2 . 2 2 . 2 
-2 . . . . . . . . . . . 2 2 . 2 
-2 2 2 . 2 2 2 2 2 2 2 . 2 2 . 2 
-2 . . . . . . . . . . . . . . 2 
-2 . 2 2 2 2 2 2 2 2 2 . 2 2 . 2 
-2 . . . . . . . . . . . . . . 2 
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,sprites.castle.tileGrass1,myTiles.tile9,myTiles.tile11,myTiles.tile13,sprites.vehicle.roadHorizontal,sprites.vehicle.roadVertical,sprites.vehicle.roadTurn3,sprites.vehicle.roadTurn2,sprites.vehicle.roadIntersection4,myTiles.tile14,myTiles.tile15,myTiles.tile12,sprites.castle.tileGrass3], TileScale.Sixteen);
             case "level2":
             case "level2":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
 . . . . . . . . . . . . . . . . 
@@ -210,6 +191,25 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
+            case "level1":
+            case "level1":return tiles.createTilemap(hex`100010000914090909090909090e090909090909090111090302020202020204090901090901090901090909090e0901090901090901090901091111090e090109090109091302020b0903020a02020c02020b090901090901090109010e0901090901090901090901090109010f0d010d0d01100901090901110109010909010912010e0901090906020509011109010909010e0901090909090909010909011211010e09060202020202020702020b0912010e0d0d0d010d0d0d0d0d0d0d010d0d011509030202020202020202020c02020b09090109090909090909090901090901090906020202020202020202080202050909090909090909090909090909090909`, img`
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 . 2 2 . . . . . . . . 2 2 . 2 
+2 . 2 2 . 2 2 2 2 2 2 . 2 2 . 2 
+2 . 2 2 . 2 2 2 2 2 2 . 2 2 . 2 
+2 . . . . 2 . . . . . . . . . 2 
+2 . 2 2 . 2 . 2 . 2 2 . 2 2 . 2 
+2 . 2 2 . 2 . 2 . 2 2 . 2 2 . 2 
+2 . 2 2 . 2 . 2 . 2 2 . 2 2 . 2 
+2 . 2 2 . . . 2 . 2 2 . 2 2 . 2 
+2 . 2 2 2 2 2 2 . 2 2 . 2 2 . 2 
+2 . . . . . . . . . . . 2 2 . 2 
+2 2 2 . 2 2 2 2 2 2 2 . 2 2 . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . 2 2 2 2 2 2 2 2 2 . 2 2 . 2 
+2 . . . . . . . . . . . . . . 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,sprites.castle.tileGrass1,myTiles.tile9,myTiles.tile11,myTiles.tile13,sprites.vehicle.roadHorizontal,sprites.vehicle.roadVertical,sprites.vehicle.roadTurn3,sprites.vehicle.roadTurn2,myTiles.tile14,myTiles.tile15,myTiles.tile12,sprites.castle.tileGrass3,sprites.vehicle.roadTurn4], TileScale.Sixteen);
         }
         return null;
     })

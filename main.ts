@@ -103,10 +103,11 @@ game.splash("For at vinde spillet")
 titleBackground.fill(15)
 game.splash("Indsaml alt olie")
 titleBackground.fill(2)
-game.splash("og overlev de 3 levels")
+game.splash("og overlev de 2 levels")
 titleBackground.fill(10)
 game.splash("Held og lykke")
 game.splash("Spillet starter nu!")
+titleBackground.fill(7)
 // Start spillet
 startGame()
 game.onUpdate(function () {
